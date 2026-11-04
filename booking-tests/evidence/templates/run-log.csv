@@ -1,1 +1,2 @@
 checkpoint,command,git_commit,working_tree_clean,passed,failed,skipped,covered_lines,total_lines,covered_branches,total_branches,mutation_status_counts,report_path
+starter-tests,.\mvnw.cmd clean test,deca3b9322e5bbe299a9683e4434dc16528b74a0,true,3,0,0,,,,,,evidence/runs/starter-tests/
