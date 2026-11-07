@@ -121,5 +121,15 @@ could miss an accidental state change that blocks alice's later request.
 
 ## Changes
 
-Pending code inspection. Keep the initial-plan commit in history and record any
-important changes here after inspecting the code, or explain why none are needed.
+Initial-plan commit: `4e540099d7646c6bc5f41da0dfa3cd81970ed5df`.
+
+For #6, inspected `BookingService.create` after that commit and saved starter-only
+coverage before adding tests. The seven `CreationTimeTest` rows in `test-map.csv`
+still match R1 and R5, so no expected results or input groups changed. The methods
+keep the planned names. Shared assertion helpers check every stored field and the
+notification list; rejection checks compare snapshots without relying on order.
+
+For #22, inspected `BookingService.cancel` and the repository contract after the
+initial-plan commit. The core cases stay unchanged. Two additional test-map rows
+cover the Part 6 failed-save experiment and a successful-save control. The failure
+is enabled after seeding and occurs before storage changes, as required by API.md.
