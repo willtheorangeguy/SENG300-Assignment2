@@ -1,2 +1,5 @@
 checkpoint,command,git_commit,working_tree_clean,passed,failed,skipped,covered_lines,total_lines,covered_branches,total_branches,mutation_status_counts,report_path
 starter-tests,.\mvnw.cmd clean test,deca3b9322e5bbe299a9683e4434dc16528b74a0,true,3,0,0,,,,,,evidence/runs/starter-tests/
+starter-coverage,.\mvnw.cmd clean verify,4e540099d7646c6bc5f41da0dfa3cd81970ed5df,true,3,0,0,22,31,7,20,,evidence/runs/starter-coverage/
+creation-time-tests,.\mvnw.cmd clean test,0107c413944b2f590475f03818d82b8773c5140f,true,10,0,0,,,,,,evidence/runs/creation-time-tests/
+failed-save-tests,.\mvnw.cmd clean test,ceb6606954c688bbddfcf57da4b3a3fc730fb71c,true,12,0,0,,,,,,evidence/runs/failed-save-tests/
